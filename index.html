@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Keep That Music Alive</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="lib/p5.js"></script>
+  <script src="lib/p5.sound.js"></script>
+  <script src="https://unpkg.com/tone@14.7.77/build/Tone.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@magenta/music@1.23.1/es6/core.js"></script>
+  <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+</head>
+
+<body>
+
+  <div class="main-wrapper">
+    <h1>Keep That Music Alive</h1>
+
+    <div id="p5-canvas-container"></div>
+
+    <p class="subtitle">Move your hands across the zones to sustain the music. Stay still —— the music fades.</p>
+
+    <div class="rules">
+      <h2>How to Play</h2>
+      <div class="rules-grid">
+        <div class="rule-block">
+          <h3>🖐 Keep the Music Alive 🎵 </h3>
+          <p>The screen is divided into 4 sound zones. Move your hands into the zones to keep each one's life bar full. If you walk away, the music fades and the zone dies.</p>
+        </div>
+        <div class="rule-block">
+          <h3>📍 Body Prompts 💃</h3>
+          <p>A body part name will appear in a zone. Move that part into the zone before time runs out. Miss it and you lose a life. Complete it and you get a short breather before the next prompt.</p>
+        </div>
+        <div class="rule-block">
+          <h3>✊ Snake 🐍</h3>
+          <p>Make a fist to turn the snake right. Open your mouth to speed it up. Guide the snake to eat the fruit and gain an extra life.</p>
+        </div>
+        <div class="rule-block">
+          <h3>❤️ Lives 💔</h3>
+          <p>You start with 3 lives, up to a maximum of 5. Missing a body prompt costs 1 life. The game ends when all lives are gone and every zone goes silent.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="sketch.js"></script>
+</body>
+
+</html>
