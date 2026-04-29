@@ -51,9 +51,7 @@ While not data-driven, it still produces continuous variation while keeping the 
 - Separate game mode and exploration mode
 - Improve tracking robustness
 
-## Demo
-
-coming...
+## Demo coming soon...
 
 ## Author
 
