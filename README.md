@@ -58,5 +58,5 @@ coming...
 ## Author
 
 Helga Tong  
-University of Michigan  
-PAT 464: Generative AI for Music and Audio Creation
+Original Project for WN26 PAT 464: Gen AI for Music and Audio Creation
+University of Michigan SMTD
